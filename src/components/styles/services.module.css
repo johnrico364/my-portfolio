@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.main_container {
+  background-image: url('/assets/home/home_bg.png');
+  color: white;
+  @apply h-[55rem];
+}
+
+.card_container{
+  @apply flex flex-col items-center bg-white/10 p-6 rounded-lg backdrop-blur-sm w-1/3;
+}

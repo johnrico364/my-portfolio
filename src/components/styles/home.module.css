@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.main_container {
+  background-image: url('/assets/home/home_bg.png');
+  color: white;
+  @apply h-[55rem] flex items-center;
+}
+
+.laptop_bg_container {
+  background-image: url("/assets/home/laptop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @apply basis-1/2 h-[55rem];
+}

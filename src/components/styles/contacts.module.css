@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.main_container {
+  background-image: url("/assets/home/home_bg.png");
+  color: white;
+  @apply h-[55rem];
+}
+
+.contact_container {
+  @apply h-[44.5rem] flex justify-center gap-14 items-center;
+}
+
+.icon {
+  @apply inline text-[2rem] mr-[1rem];
+}
