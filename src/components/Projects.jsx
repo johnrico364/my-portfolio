@@ -34,7 +34,7 @@ export const Projects = () => {
       <div className="flex overflow-x-auto gap-6 px-8 mt-[7rem] pb-8">
         {projects.map((project) => {
           return (
-            <div className={style.card_container}>
+            <div className={style.card_container} key={project.name}>
               <img
                 src={`/assets/projects/${project.image}`}
                 className={style.card_img}

@@ -4,5 +4,5 @@
 .main_container {
   background-image: url('/assets/home/home_bg.png');
   color: white;
-  @apply h-[55rem] flex;
+  @apply h-[55rem] flex flex-wrap;
 }

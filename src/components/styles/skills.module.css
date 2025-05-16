@@ -2,23 +2,23 @@
 @plugin "daisyui";
 
 .main_container {
-  background-image: url('/assets/home/home_bg.png');
+  background-image: url("/assets/home/home_bg.png");
+  background-size: cover;
+  background-position: center;
   color: white;
-  @apply h-[55rem] flex;
+  @apply min-h-[55rem] flex flex-col lg:flex-row py-8;
 }
 
 .technical_skills_container {
-  @apply flex flex-col gap-4 px-8 pt-[3rem];
-
-  img{
-    @apply w-fit;
-  }
+  @apply flex flex-col gap-4 pt-[2rem] md:pt-[3rem];
 }
 
 .sub_skills_container {
-  @apply w-full flex flex-wrap px-4 gap-4;
+  @apply w-full flex flex-wrap justify-center lg:justify-start gap-3 md:gap-4 p-4;
 }
 
-.sub_skill{
-  @apply p-3 px-5 rounded-lg bg-[#0E0673];
+.sub_skill {
+  @apply p-2 md:p-3 px-3 md:px-5 rounded-lg bg-[#0E0673] text-sm 
+         md:text-base hover:bg-[#1a0fad] transition-colors duration-300
+         hover:transform hover:scale-105;
 }

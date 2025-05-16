@@ -27,18 +27,21 @@ export const Services = () => {
       <img
         src="/assets/services/header_text.png"
         className="pl-8 pt-[3.5rem]"
-      />
-      <div className="flex justify-between mt-[7rem] px-8 gap-8">
-        {services.map((service) => {
+      />      <div className="flex flex-wrap justify-center lg:justify-between mt-[7rem] px-4 lg:px-8 gap-12 md:gap-16">
+        {services.map((service, index) => {
           return (
-            <div className={style.card_container}>
+            <div key={index} className={style.card_container}>
               <img
                 src={`/assets/services/${service.image}`}
-                alt="Service 1"
-                className="w-32 h-32 object-contain mb-4"
+                alt={service.title}
+                className="w-24 h-24 md:w-32 md:h-32 object-contain mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-              <p className="text-center text-gray-200">{service.description}</p>
+              <h3 className="text-lg md:text-xl font-bold mb-2">
+                {service.title}
+              </h3>
+              <p className="text-center text-gray-200 text-sm md:text-base">
+                {service.description}
+              </p>
             </div>
           );
         })}

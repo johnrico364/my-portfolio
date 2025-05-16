@@ -6,20 +6,24 @@ export const Contacts = () => {
     <div className={style.main_container}>
       <img
         src="/assets/contacts/contact_text.png"
-        className="pl-8 pt-[3.5rem]"
+        className="w-64 px-4 lg:px-8 pt-[3.5rem]"
       />
       <div className={style.contact_container}>
-        <div>
+        <div className={style.contact_item}>
           <HiMail className={style.icon} />
-          <span className="font-[1.2rem]">johnrico364@gmail.com</span>
+          <span className="text-base md:text-lg lg:text-xl">
+            johnrico364@gmail.com
+          </span>
         </div>
-        <div>
+        <div className={style.contact_item}>
           <HiPhone className={style.icon} />
-          <span className="font-[1.2rem]">0930 949 3570</span>
+          <span className="text-base md:text-lg lg:text-xl">0930 949 3570</span>
         </div>
-        <div>
+        <div className={style.contact_item}>
           <HiLocationMarker className={style.icon} />
-          <span className="font-[1.2rem]">Mandaue City, Cebu, Philippines</span>
+          <span className="text-base md:text-lg lg:text-xl">
+            Mandaue City, Cebu, Philippines
+          </span>
         </div>
       </div>
     </div>

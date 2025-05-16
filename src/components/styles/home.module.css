@@ -2,9 +2,9 @@
 @plugin "daisyui";
 
 .main_container {
-  background-image: url('/assets/home/home_bg.png');
+  background-image: url("/assets/home/home_bg.png");
   color: white;
-  @apply h-[55rem] flex items-center;
+  @apply h-[55rem] flex items-center justify-center;
 }
 
 .laptop_bg_container {
@@ -12,5 +12,15 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  @apply basis-1/2 h-[55rem];
+  @apply hidden lg:block basis-1/2 h-[55rem];
+}
+
+.icons {
+  @apply inline mr-3 text-[2rem] mt-[1rem];
+  @apply transition-all duration-300 ease-in-out;
+
+  &:hover {
+    @apply transform scale-125 text-blue-400;
+    filter: drop-shadow(0 0 8px rgba(96, 165, 250, 0.5));
+  }
 }

@@ -3,14 +3,30 @@
 
 .main_container {
   background-image: url("/assets/home/home_bg.png");
+  background-size: cover;
+  background-position: center;
   color: white;
-  @apply h-[55rem];
+  @apply min-h-[55rem] flex flex-col;
 }
 
 .contact_container {
-  @apply h-[44.5rem] flex justify-center gap-14 items-center;
+  @apply flex flex-col md:flex-row justify-center items-center 
+         gap-8 md:gap-10 lg:gap-14
+         px-4 md:px-8 
+         py-12 md:py-20 lg:py-28
+         flex-grow;
+}
+
+.contact_item {
+  @apply flex items-center bg-white/10 backdrop-blur-sm
+         w-full lg:w-auto
+         p-4 md:p-6 rounded-lg
+         hover:bg-white/20 transition-all duration-300
+         hover:transform hover:scale-105;
 }
 
 .icon {
-  @apply inline text-[2rem] mr-[1rem];
+  @apply text-xl md:text-2xl lg:text-[2rem] 
+         mr-3 md:mr-4 lg:mr-[1rem]
+         text-blue-400;
 }
