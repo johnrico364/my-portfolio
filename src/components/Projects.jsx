@@ -27,14 +27,24 @@ export const Projects = () => {
     {
       image: "e-commerce.png",
       name: "E-COMMERCE",
-      description: "Full-featured e-commerce platform with payment integration",
+      description:
+        "This e-commerce platform features distinct client and admin interfaces, providing customers with a seamless shopping experience and empowering administrators with comprehensive management tools.",
       technologies: "React JS, Node JS, Express JS, MongoDB",
       link: "https://github.com/johnrico364/milky-way-store.git",
     },
     {
+      image: "car-rental.png",
+      name: "CAR RENTAL",
+      description:
+        "This car rental app offers a user-friendly client side for seamless vehicle booking and a robust admin side for efficient fleet management and reservation oversight.",
+      technologies: "React JS, Node JS, Express JS, MongoDB",
+      link: "https://github.com/johnrico364/car-rental.git",
+    },
+    {
       image: "todo_list.png",
       name: "TODO LIST",
-      description: "Smart task management application with reminders",
+      description:
+        "Smart task management application with basic interface and features",
       technologies: "React JS, Node JS, Express JS, MongoDB",
       link: "https://github.com/johnrico364/todo-strapi.git",
     },
