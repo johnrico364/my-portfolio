@@ -8,35 +8,35 @@ export const Projects = () => {
       description:
         "This system is a global recipe explorer that showcases traditional and popular dishes from countries around the world, offering users an immersive culinary journey across cultures.",
       technologies: "Next JS, Laravel, Blade, MySql",
-      link: "https://foodhub.example.com",
+      link: "https://github.com/johnrico364/food-hub.git",
     },
     {
       image: "dev_tools.png",
       name: "DEV TOOLS (Client)",
       description: "Collection of essential developer tools and utilities",
       technologies: "React JS",
-      link: "https://devtools.example.com",
+      link: "https://github.com/johnrico364/dev-tools-client.git",
     },
     {
       image: "airline_booking.png",
       name: "AIRLINE BOOKING",
       description: "Online flight booking and reservation system",
       technologies: "React, Node.js, PostgreSQL",
-      link: "https://airbooking.example.com",
+      link: "https://github.com/johnrico364/ticket-system.git",
     },
     {
       image: "e-commerce.png",
       name: "E-COMMERCE",
       description: "Full-featured e-commerce platform with payment integration",
       technologies: "React, Express.js, MongoDB",
-      link: "https://ecommerce.example.com",
+      link: "https://github.com/johnrico364/milky-way-store.git",
     },
     {
       image: "todo_list.png",
       name: "TODO LIST",
       description: "Smart task management application with reminders",
       technologies: "React, LocalStorage, TailwindCSS",
-      link: "https://todoapp.example.com",
+      link: "https://github.com/johnrico364/todo-strapi.git",
     },
   ];
 
