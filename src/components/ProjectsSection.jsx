@@ -50,15 +50,25 @@ function ProjectsSection({ projects, theme }) {
                   <FaGithub />
                   Code
                 </a>
-                <a
-                  className="btn btn-primary btn-sm"
-                  href={project.liveLink}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaExternalLinkAlt />
-                  Live
-                </a>
+                {project.liveDisabled ? (
+                  <span
+                    className="btn btn-primary btn-sm btn-disabled cursor-not-allowed"
+                    aria-disabled="true"
+                  >
+                    <FaExternalLinkAlt />
+                    Live
+                  </span>
+                ) : (
+                  <a
+                    className="btn btn-primary btn-sm"
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaExternalLinkAlt />
+                    Live
+                  </a>
+                )}
               </div>
             </div>
           </article>

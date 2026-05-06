@@ -5,7 +5,9 @@ import {
   FaDownload,
   FaEnvelope,
   FaExternalLinkAlt,
+  FaFacebook,
   FaGithub,
+  FaInstagram,
   FaLinkedin,
   FaMoon,
   FaServer,
@@ -13,18 +15,20 @@ import {
 } from "react-icons/fa";
 
 export const profile = {
-  name: "Alex Fullstack",
+  name: "Jah Fullstack",
   role: "Fullstack Developer",
   shortIntro:
     "I build fast, scalable, and user-focused web applications from frontend experience to backend architecture.",
   about:
-    "I am a fullstack developer focused on creating reliable products that solve real business problems. I enjoy turning ideas into polished applications, improving performance, and collaborating in agile teams.",
-  email: "alex.fullstack.dev@example.com",
-  location: "Metro Manila, Philippines",
+    "I am a fullstack developer focused on creating reliable products that solve real business problems. I enjoy turning ideas into polished applications, and improving performance.",
+  email: "johnrico364@gmail.com",
+  location: "Cebu, Philippines",
   resumeLink: "#",
   socials: [
-    { label: "GitHub", href: "https://github.com/your-username", icon: FaGithub },
-    { label: "LinkedIn", href: "https://linkedin.com/in/your-handle", icon: FaLinkedin },
+    { label: "GitHub", href: "https://github.com/johnrico364", icon: FaGithub },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/john-anthony-rico-259930330", icon: FaLinkedin },
+    { label: "Facebook", href: "https://www.facebook.com/jah.wrldd", icon: FaFacebook },
+    { label: "Instagram", href: "https://www.instagram.com/_jah.wrld/", icon: FaInstagram },
   ],
 };
 
@@ -38,6 +42,7 @@ export const projects = [
     tech: ["React", "Node.js", "Express", "MongoDB"],
     liveLink: "https://example.com/admin-dashboard",
     repoLink: "https://github.com/your-username/ecommerce-dashboard",
+    liveDisabled: true,
   },
   {
     title: "TaskFlow Collaboration App",
@@ -59,23 +64,43 @@ export const projects = [
     liveLink: "https://example.com/devhire",
     repoLink: "https://github.com/your-username/devhire",
   },
+  {
+    title: "Food Hub",
+    description:
+      "A food ordering UI with menu browsing, cart flow, and checkout-focused layout built for practice and portfolio demos.",
+    image: "/assets/projects/food_hub.png",
+    tech: ["React", "CSS", "Responsive layout"],
+    liveLink: "#",
+    repoLink: "https://github.com/your-username/food-hub",
+    liveDisabled: true,
+  },
+  {
+    title: "Todo List App",
+    description:
+      "A task list with add, complete, and filter interactions—local-first demo without a public deployment.",
+    image: "/assets/projects/todo_list.png",
+    tech: ["React", "JavaScript", "Local storage"],
+    liveLink: "#",
+    repoLink: "https://github.com/your-username/todo-list",
+    liveDisabled: true,
+  },
 ];
 
 export const skillGroups = [
   {
     title: "Frontend",
     icon: FaCode,
-    items: ["React", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS", "DaisyUI"],
+    items: ["React JS", "Next JS", "TypeScript", "Tailwind CSS", "DaisyUI", "Bootstrap"],
   },
   {
     title: "Backend",
     icon: FaServer,
-    items: ["Node.js", "Express.js", "REST APIs", "Authentication", "SQL/NoSQL"],
+    items: ["Node.js", "Express.js", "MySQL", "MongoDB"],
   },
   {
     title: "Tools",
     icon: FaGithub,
-    items: ["Git & GitHub", "Vite", "Postman", "Figma", "CI/CD Basics"],
+    items: ["Git & GitHub", "Postman", "Figma"],
   },
 ];
 

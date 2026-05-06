@@ -23,7 +23,7 @@ function HeroSection({ profile }) {
             </a>
             <a href={profile.resumeLink} className="btn btn-outline">
               <FaDownload />
-              Download CV
+              Download Resume
             </a>
           </div>
           <p className="mt-4 text-sm text-base-content/70">{profile.location}</p>
