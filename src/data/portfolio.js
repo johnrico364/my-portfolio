@@ -26,22 +26,39 @@ export const profile = {
   resumeLink: "#",
   socials: [
     { label: "GitHub", href: "https://github.com/johnrico364", icon: FaGithub },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/john-anthony-rico-259930330", icon: FaLinkedin },
-    { label: "Facebook", href: "https://www.facebook.com/jah.wrldd", icon: FaFacebook },
-    { label: "Instagram", href: "https://www.instagram.com/_jah.wrld/", icon: FaInstagram },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/john-anthony-rico-259930330",
+      icon: FaLinkedin,
+    },
+    {
+      label: "Facebook",
+      href: "https://www.facebook.com/jah.wrldd",
+      icon: FaFacebook,
+    },
+    {
+      label: "Instagram",
+      href: "https://www.instagram.com/_jah.wrld/",
+      icon: FaInstagram,
+    },
   ],
 };
 
 export const projects = [
   {
-    title: "E-Commerce Admin Dashboard",
+    title: "Pasahero | Super Admin",
     description:
-      "A full dashboard for product, order, and user management with role-based access and analytics widgets.",
+      "A super admin side for bus and route monitoring with real-time updates and analytics.",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+    images: [
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551281044-8a7c0f58c0f2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+    ],
+    tech: ["Next JS", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
     liveLink: "https://example.com/admin-dashboard",
-    repoLink: "https://github.com/your-username/ecommerce-dashboard",
+    repoLink: "https://github.com/johnrico364/pasa-hero",
     liveDisabled: true,
   },
   {
@@ -50,6 +67,11 @@ export const projects = [
       "A collaborative task management app with boards, due dates, file uploads, and real-time updates.",
     image:
       "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=1200&q=80",
+    ],
     tech: ["React", "Firebase", "Tailwind", "DaisyUI"],
     liveLink: "https://example.com/taskflow",
     repoLink: "https://github.com/your-username/taskflow",
@@ -60,6 +82,11 @@ export const projects = [
       "A job portal where companies post roles and developers apply, with filtering, saved jobs, and profile pages.",
     image:
       "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    ],
     tech: ["React", "TypeScript", "PostgreSQL", "Prisma"],
     liveLink: "https://example.com/devhire",
     repoLink: "https://github.com/your-username/devhire",
@@ -69,6 +96,11 @@ export const projects = [
     description:
       "A food ordering UI with menu browsing, cart flow, and checkout-focused layout built for practice and portfolio demos.",
     image: "/assets/projects/food_hub.png",
+    images: [
+      "/assets/projects/food_hub.png",
+      "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=80",
+    ],
     tech: ["React", "CSS", "Responsive layout"],
     liveLink: "#",
     repoLink: "https://github.com/your-username/food-hub",
@@ -79,6 +111,11 @@ export const projects = [
     description:
       "A task list with add, complete, and filter interactions—local-first demo without a public deployment.",
     image: "/assets/projects/todo_list.png",
+    images: [
+      "/assets/projects/todo_list.png",
+      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&w=1200&q=80",
+    ],
     tech: ["React", "JavaScript", "Local storage"],
     liveLink: "#",
     repoLink: "https://github.com/your-username/todo-list",
@@ -90,7 +127,14 @@ export const skillGroups = [
   {
     title: "Frontend",
     icon: FaCode,
-    items: ["React JS", "Next JS", "TypeScript", "Tailwind CSS", "DaisyUI", "Bootstrap"],
+    items: [
+      "React JS",
+      "Next JS",
+      "TypeScript",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Bootstrap",
+    ],
   },
   {
     title: "Backend",
@@ -120,4 +164,3 @@ export {
   FaMoon,
   FaSun,
 };
-
