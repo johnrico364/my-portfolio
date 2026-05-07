@@ -65,7 +65,7 @@ function ProjectsSection({ projects, theme }) {
                           <img
                             src={src}
                             alt={alt}
-                            className="h-full w-full object-cover"
+                            className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                             loading={i === 0 ? "eager" : "lazy"}
                           />
                           <div className="absolute top-1/2 left-5 right-5 z-10 flex -translate-y-1/2 justify-between">
