@@ -47,14 +47,15 @@ export const profile = {
 export const projects = [
   {
     title: "Pasahero | Super Admin",
-    description:
-      "A super admin side for bus and route monitoring with real-time updates and analytics.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    description: `A super admin side for bus and route monitoring with real-time updates and analytics. 
+      Also has a driver and passenger side for tracking their location and routes.`,
+    image: "/projects/pasahero_super_admin/1.PNG",
     images: [
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1551281044-8a7c0f58c0f2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "/projects/pasahero_super_admin/1.PNG",
+      "/projects/pasahero_super_admin/2.PNG",
+      "/projects/pasahero_super_admin/3.PNG",
+      "/projects/pasahero_super_admin/4.PNG",
+      "/projects/pasahero_super_admin/5.PNG",
     ],
     tech: ["Next JS", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
     liveLink: "https://example.com/admin-dashboard",
