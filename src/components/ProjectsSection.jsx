@@ -37,7 +37,7 @@ function ProjectsSection({ projects, theme }) {
               className="grid items-center gap-6 border-b border-base-300/60 pb-8 last:border-b-0 md:grid-cols-2"
             >
               <figure
-                className={`relative h-64 overflow-hidden rounded-2xl ${
+                className={`relative aspect-[4/3] w-full overflow-hidden rounded-2xl ${
                   index % 2 === 1 ? "md:order-2" : ""
                 }`}
               >
